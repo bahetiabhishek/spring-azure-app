@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          azure:
+            client-id: ccfc018d-4177-4e09-bdfb-308d8283fbb4
+            client-secret: zsm8Q~Kq-BMABl5Lcq4Strf57VUwM9BJYJBWTaQ4
+            authorization-grant-type: client_credentials
+            scope: https://storage.azure.com/.default
+        provider:
+          azure:
+            token-uri: https://login.microsoftonline.com/30fe8ff1-adc6-444d-ba94-1238894df42c/oauth2/v2.0/token
+  cloud:
+    azure:
+      storage:
+        account-name: 
+        container-name: 

@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "spring.cloud.azure.storage.container-name",
+  "type": "java.lang.String",
+  "description": "A description for 'spring.cloud.azure.storage.container-name'"
+}]}
