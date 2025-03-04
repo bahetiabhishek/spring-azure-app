@@ -24,7 +24,7 @@ public class AzureBlobService {
     public byte[] downloadBlob(String blobName) {
         String accessToken = azureOAuth2Service.getAccessToken();
         if (accessToken == null) {
-            throw new RuntimeException("Failed to get access token from auth");
+            throw new RuntimeException("Failed to get access token from auth abhi");
         }
 
         String blobUrl = String.format("https://%s.blob.core.windows.net/%s/%s", accountName, containerName, blobName);
